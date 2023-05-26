@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        // even/odd program
+
+        let number=Number(prompt("enter the number to check"))
+    if(number%2===0){
+        console.log(`the given number ${number} is even`)
+    }
+    else{
+        console.log(`the given number ${number} is odd`)
+    }
+
+    </script>
+
+    <script>
+
+        // leap year program
+
+        let Year=Number(prompt("enter the year to verify"))
+        if((Year%400===0)||((Year%4===0)&&(Year%100===0))){
+            console.log(`the given year ${Year} is leap year`)
+
+        }
+        else{
+            console.log(`the given year ${Year} is not laep year`)
+        }
+
+    </script>
+
+    <script>
+
+        // biggest of three numbers
+        let num1=Number(prompt("enter the first number"))
+        let num2=Number(prompt("enter the second number"))
+        let num3=Number(prompt("enter the third number"))
+        if(num1>num2){
+            if(num1>num3){
+                console.log(`the greater number is num1 ${num1}`)
+            }
+            else{
+                console.log(`the greater number is num3 ${num3}`)
+            }
+        }
+        else{
+                if(num2>num3){
+                    console.log(`the greater number is num2 ${num2}`)
+                }
+                else{
+                    console.log(`the greater number is num3 ${num3}`)
+                }
+            }
+            
+        
+    </script>
+    <script>
+
+        // smallest number of three numbers
+
+        let number1=Number(prompt("enter the first number"))
+        let number2=Number(prompt("enter the second number"))
+        let number3=Number(prompt("enter the third number"))
+        if(number1<number2){
+            if(number1<number3){
+                console.log(`the smallest number is num1 ${number1}`)
+            }
+            else{
+                console.log(`the smallest number is num3 ${number3}`)
+            }
+        }
+        else{
+                if(number2<number3){
+                    console.log(`the smallest number is num2 ${number2}`)
+                }
+                else{
+                    console.log(`the smallest number is num3 ${number3}`)
+                }
+            }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>console</title>
+</head>
+<body>
+
+
+    <script>
+        // console.log is used to print any type of output
+        console.log("to print the output")
+        // console.info is used to display the information related to any content
+        console.log("to print the output")
+        // console.warn is used to display the warning message in the program
+        console.warn("to display warning message")
+        // console.error is used to dispaly the error message in the program 
+        console.log("to display error message")
+        // console.table is used  to dispaly the information in the table format 
+        let arr=[1,2,3,4,5]
+        console.table("arr")
+        let obj={
+            name:"Vandana",
+            number:9989256014,
+            status:"single"
+         }
+         console.table(obj)
+        //  console.count is used to display the count of output printed
+        for(let i=0;i<=10;i++){
+            console.count(i)
+        }
+        // console.time and sonsole.temeend are used to display the rime for execution of a task
+        console.time()
+        for(let i=0;i<=10;i++){
+            console.log(i)
+        }
+        console.timeEnd()
+
+    </script>
+    
+</body>
+</html>

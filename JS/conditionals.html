@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // even or odd program
+
+        let number=Number(prompt("enter the number to check"))
+        if(number%2===0){
+            console.log(`given number ${number} is even`)
+        }
+        else{
+            console.log(`the given number ${number} is odd`)
+        }
+
+        // leap year program
+        let year=Number(prompt("enter the year to verify"))
+        if((year%400===0)||(year%4===0)&&(year%100!=0)){
+            console.log(`the given year ${year} is leap year`)
+        }
+        else{
+            console.log(`the given year ${year} is not leap year`)
+        }
+
+
+        // program to find biggest of three numbers
+
+        // let num1=Number(prompt("enter the first number"))
+        // let num2=Number(prompt("enter the second number"))
+        // let num3=Number(prompt("enter the third number"))
+        // if(num1>num2){
+        //     if(num1>num3){
+        //         console.log(`the greater number is num1:${num1}`)
+        //     }
+        //     else{
+        //         console.log(`the greater number is num3:${mun3}`)
+        //     }
+        // }
+        // else{
+        //     if( num2>num3){
+        //         console.log(`the greater number is num2:${num2}`)
+        //     }
+        //     else{
+        //         console.log(`the greater number is num3:${num3}`)
+        //     }
+        // }
+
+
+
+        // smallest of three numbers
+
+        // let num1=Number(prompt("enter the first number"))
+        // let num2=Number(prompt("enter the second number"))
+        // let num3=Number(prompt("enter the third number"))
+        // if(num1<num2){
+        //     if(num1<num3){
+        //         console.log(`the smaller number is num1:${num1}`)
+        //     }
+        //     else{
+        //         console.log(`the smaller number is num3:${mun3}`)
+        //     }
+        // }
+        // else{
+        //     if( num2<num3){
+        //         console.log(`the smaller number is num2:${num2}`)
+        //     }
+        //     else{
+        //         console.log(`the smaller number is num3:${num3}`)
+        //     }
+        // }
+
+
+
+
+        // check the number is postive or negative or zero
+
+        // let numberr=Number(prompt("enter the number"))
+        // if(numberr===0){
+        //     console.log(`the given number is ${numberr} zero`)
+        // }
+        // else if(numberr>0){
+        //     console.log(`the given number is ${numberr} positive`)
+        // }
+        // else if(numberr<0){
+        //     console.log(`the given number is ${number} negative`)
+        // }
+        // else{
+        //     console.log(`the given number is ${number} not a number`)
+        // }
+
+
+
+        // switch case program
+
+        let str=prompt("enter a day")
+        switch(str){
+            case "sunday":
+                console.log("first day of the week");
+                break;
+            case "monday":
+                 console.log("seconday of the week");
+                 break;
+             case "tueday":
+                    console.log("third of the week");
+                    break;
+            case "wednesday":
+                    console.log("fourthday of the week");
+                    break;
+             case "thrusday":
+                    console.log("fifthday of the week");
+                    break;
+             case "friday":
+                    console.log("sixthday of the week");
+                    break;
+            case "saturday":
+                    console.log("seventhday of the week");
+                    break;
+                default:
+                    console.log("invalid day")
+                    
+            }
+    </script>
+    
+</body>
+</html>

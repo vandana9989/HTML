@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 1100px;
+            height: 550px;
+            background: linear-gradient(45deg,blue,lightblue);
+            border: 1px solid ghostwhite;
+            margin: 50px;
+        }
+        .child{
+            width: 850px;
+            height: 450px;
+            border: 1px solid ghostwhite;
+            background-color: ghostwhite;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            position: relative;
+            left: 200px;
+            margin-top: -380px;
+            margin-left: 50px;
+            text-align: center;
+        }
+        h1{
+            margin: 200px 0 0 50px;
+            font-size: 25px;
+            color: ghostwhite;
+        }
+        h2{
+            font-size: 15px;
+            font-style: italic;
+            color: ghostwhite;
+            margin: 10px 0 0 20px;
+        }
+        .button{
+            border-radius: 20px;
+            padding: 8px 30px 8px 30px;
+            margin: 100px 0 0 50px;
+        }
+        table{
+            margin: 40px 0 0 100px;
+            
+        }
+        legend{
+            font-size: 20px;
+            margin-top: 60px;
+        }
+        .register{    
+            border-radius: 20px;
+            padding: 8px 30px 8px 30px;
+            margin: 50px 0 0 30px;
+            background-color: blue;
+            color: ghostwhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+            <h1>Welcome</h1>
+            <h2>You are 30 seconds away<br>from earning your own<br> money!</h2>
+            <button class="button">LOGIN</button>
+        <div class="child">
+            <form>
+                <legend>Apply as a Employee</legend>
+                <table cellspacing="20px" cellpadding="5">
+                    <tr> 
+                        <td><input type="text" placeholder="First name*"></input></td>
+                        <td><input type="text" placeholder="Your Email*"></input></td>
+                    </tr>
+                    <tr> 
+                        <td><input type="text" placeholder="Last name*"></input></td>
+                        <td><input type="tel" placeholder="Your phone*"></input></td>
+                    </tr>
+                    <tr> 
+                        <td><input type="password" placeholder="Password*"></input></td>
+                        <td><select>
+                            <option>Select your security question</option>
+                            <option>What is your pet name?</option>
+                            <option>What is your friend name?</option>
+                        </select></td>
+                    </tr>
+                    <tr> 
+                        <td><input type="password" placeholder="Confirm Password*"></input></td>
+                        <td><input type="text" placeholder="Enter Your Answer*"></input></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </td>
+                        <td>
+                            <button class="register">Register</button>
+                        </td>
+                    </tr>
+                </table>__
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>forms</title>
+   <style>
+    body{
+        margin: 100px 100px 100px 170px;
+        background-color: burlywood;
+    }
+    fieldset{
+        background:linear-gradient(45deg,red,blue,green);
+        width: fit-content;
+        text-align: center;
+        padding: 25px;
+        font-size: 30px;
+        font-style: italic;
+        border-radius: 20px;
+        color:red;
+    }
+    #logout:hover{
+        background-color: aqua;
+        width: 100px;
+        height: 25px;
+        font-size: 20px;
+        font-style: italic;
+
+    }
+    #login:hover{
+        background-color: aqua;
+        width: 100px;
+        height: 25px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    
+
+
+   </style>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend> Registration Form </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="#User-name"> User-Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#password"> Password</label>
+                    </td>
+                    <td> <input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#skills"> skills</label>
+                    </td>
+                    <td> 
+                        <select id="skills">
+                        <option value=""> python</option>
+                        <option value=""> java</option>
+                        <option value=""> mern</option></select>
+                    </td>
+                </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit"  id="login" value="login">
+                        </td>
+                        <td>
+                            <input type="submit" id="logout" value="logout">
+                        </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
